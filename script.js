@@ -389,7 +389,7 @@ function showFormSuccess(form) {
   formWrap.innerHTML = `
     <div style="
       text-align: center;
-      padding: 3rem 1.5rem;
+    
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -414,7 +414,7 @@ function showFormSuccess(form) {
       </p>
       <a href="tel:1800227224" class="btn btn--primary" style="margin-top:0.5rem;">
         <i class="fa-solid fa-phone" aria-hidden="true"></i>
-        Need it faster? Call 1800 CAR CASH
+        Need it faster? <br> Call 1800 CAR CASH
       </a>
     </div>
   `;

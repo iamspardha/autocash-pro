@@ -233,7 +233,7 @@ textarea {
   font-size: var(--text-sm);
   font-weight: 700;
   letter-spacing: 0.03em;
-  line-height: 1;
+  line-height: 1.4;
   border-radius: var(--radius-pill);
   transition: all var(--transition-normal);
   white-space: nowrap;
@@ -1284,7 +1284,8 @@ textarea {
 
 .quote-container {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
   gap: 48px;
 }
 
@@ -1795,6 +1796,22 @@ textarea {
     font-size: var(--text-xs);
   }
 
+  .form-input {
+    width: 100%;
+    padding: 11px;
+  }
+
+  .quote-form-wrap {
+    padding: 30px 16px;
+
+  }
+
+  .quote-container {
+    display: flex;
+    flex-direction: column;
+
+  }
+
 
 }
 
@@ -1951,10 +1968,7 @@ textarea {
   } */
 
   /* Quote form layout */
-  .quote-container {
-    grid-template-columns: 1fr 1fr;
-    align-items: start;
-  }
+
 
   .quote-section__intro .section-header {
     text-align: left;

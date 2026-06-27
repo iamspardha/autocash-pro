@@ -706,7 +706,7 @@ textarea {
 
 .procs-right-img {
   position: sticky;
-  top: 0;
+  top: 80px;
 }
 
 .procs-right-img img {

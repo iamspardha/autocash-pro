@@ -201,7 +201,7 @@ textarea {
 .section-title {
   font-family: var(--font-display);
   font-size: var(--text-3xl);
-  font-weight: 800;
+  font-weight: 700;
   line-height: 1.2;
   color: var(--color-text-primary);
   margin-bottom: 16px;
@@ -216,7 +216,7 @@ textarea {
   color: var(--color-text-secondary);
   max-width: 580px;
   margin-inline: auto;
-  line-height: 1.7;
+  line-height: 1.4;
 }
 
 
@@ -543,7 +543,7 @@ textarea {
 .hero-headline {
   font-family: var(--font-display);
   font-size: clamp(var(--text-4xl), 7vw, var(--text-7xl));
-  font-weight: 800;
+  font-weight: 700;
   line-height: 1.05;
   color: var(--color-text-inverse);
   margin-bottom: 24px;
@@ -658,7 +658,7 @@ textarea {
 .statistic-number {
   font-family: var(--font-display);
   font-size: var(--text-3xl);
-  font-weight: 800;
+  font-weight: 700;
   color: var(--color-text-inverse);
   line-height: 1;
 }
@@ -755,7 +755,7 @@ textarea {
   right: 24px;
   font-family: var(--font-display);
   font-size: 56px;
-  font-weight: 800;
+  font-weight: 700;
   color: var(--color-surface-2);
   line-height: 1;
   pointer-events: none;
@@ -1120,7 +1120,7 @@ textarea {
   right: 24px;
   font-family: var(--font-display);
   font-size: 80px;
-  font-weight: 800;
+  font-weight: 700;
   color: var(--color-primary-glow);
   line-height: normal;
   pointer-events: none;
@@ -1450,7 +1450,7 @@ textarea {
 .final-cta-section__headline {
   font-family: var(--font-display);
   font-size: clamp(var(--text-3xl), 5vw, var(--text-5xl));
-  font-weight: 800;
+  font-weight: 700;
   color: var(--color-text-inverse);
   line-height: 1.15;
   margin-bottom: 16px;
